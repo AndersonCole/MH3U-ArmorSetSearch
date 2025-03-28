@@ -8,6 +8,7 @@
 &Save
 E&xit
 &Clear Settings
+Dark Mode
 Allow &Bad Skills
 Allow &Earrings
 Allow E&vent Armor
@@ -54,6 +55,7 @@ Max Defence
 Difficulty
 Rarity
 Slots Spare
+Decos Used
 Family
 Extra Skills
 Charms

@@ -8,10 +8,13 @@
 using namespace System;
 using namespace Windows::Forms;
 
-/*#using <mscorlib.dll>
+#using <mscorlib.dll>
 using namespace System::Runtime::InteropServices;
 
 [DllImport("user32.dll", SetLastError = true)]
+extern int SendMessage( IntPtr hWnd, int Msg, bool wParam, Int32 lParam );
+
+/*[DllImport("user32.dll", SetLastError = true)]
 extern IntPtr PostMessage( IntPtr hWnd, int Msg, IntPtr wParam, IntPtr lParam );
 
 [DllImport("Kernel32.dll")]
@@ -690,4 +693,15 @@ bool ConvertUInt( unsigned% i, String^ str, StringTable::StringIndex err )
 	}
 	i = temp;
 	return true;
+}
+
+void SuspendDrawing( System::Windows::Forms::Control^ control )
+{
+	SendMessage( control->Handle, 11, false, 0 );
+}
+
+void ResumeDrawing( System::Windows::Forms::Control^ control )
+{
+	SendMessage( control->Handle, 11, true, 0 );
+	control->Refresh();
 }

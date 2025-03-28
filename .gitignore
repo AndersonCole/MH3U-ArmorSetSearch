@@ -308,3 +308,5 @@ AssToDexTest/
 !/Athena's ASS MH3G/Data/**
 /Athena's ASS MH3G/Data/mycharms**
 /ASStoDexTest
+
+Data/*

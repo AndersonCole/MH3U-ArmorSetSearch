@@ -8,6 +8,7 @@
 En&registrer
 &Quitter
 &Réinitialiser les paramètres
+Dark Mode
 Autoriser les talents &négatifs
 Autoriser les &piercings
 Autoriser les armures &DLC
@@ -54,6 +55,7 @@ Défense maximum
 Difficulté
 Rareté
 Nombre de fentes libres
+Decos Used
 Avec le plus de parties du même set
 Talents supplémentaires
 Type talisman (param. de recherche)

@@ -119,6 +119,7 @@ ref struct StringTable
 		SaveCharms,
 		Exit,
 		ClearSettings,
+		DarkMode,
 		AllowBadSkills,
 		AllowPiercings,
 		AllowEventArmor,
@@ -165,6 +166,7 @@ ref struct StringTable
 		Difficulty,
 		Rarity,
 		SortSlotsSpare,
+		SortDecosUsed,
 		SortFamily,
 		SortExtraSkills,
 		Charms,
@@ -220,6 +222,9 @@ ref struct StringTable
 		NumStrings
 	};
 };
+
+void SuspendDrawing( System::Windows::Forms::Control^ control );
+void ResumeDrawing( System::Windows::Forms::Control^ control );
 
 bool ConvertInt( int% i, System::String^ str, StringTable::StringIndex err );
 bool ConvertUInt( unsigned% i, System::String^ str, StringTable::StringIndex err );

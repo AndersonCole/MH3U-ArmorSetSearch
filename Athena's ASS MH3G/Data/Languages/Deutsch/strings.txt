@@ -8,6 +8,7 @@
 &Speichern
 B&eenden
 &Zurücksetzen
+Dark Mode
 Erlaube &Negativskills
 Erlaube &Piercings
 Erlaube &Eventrüstungen
@@ -54,6 +55,7 @@ Maximalverteidigung
 Schwierigkeit
 Seltenheit
 Freie Slots
+Decos Used
 Familie
 Extra Skills
 Talismane
